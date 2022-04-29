@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>World Biggest University</title>
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="" class="run">THE RUNZZY</a>
+                <div class="link" id="navlinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT US </a></li>
+                        <li><a href="course.html">CONTACT</a></li>
+                        <li><a href="blog.html">SERVICES</a></li>
+                        <li><a href="contatc.html">HOME</a></li>
+                    </ul>
+                    
+                </div>
+                <i class="fa fa-bars " onclick="showmenu()"></i>
+            </nav>
+          <h1>Contact Us</h1>
+        </section>
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126846.01207153052!2d3.2934884044918773!3d6.529530613403157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9228fa2a3999%3A0xd7a8324bddbba1f0!2sIkeja!5e0!3m2!1sen!2sng!4v1650653815226!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+        </section>
+        <section class="contact-us">
+            <div class="row">
+                <div class="conco">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Lagos owor</h5>
+                        <p>OWoro</p>
+                    </span>
+                </div>
+                </div>
+               
+                    <div class="conco">
+                        <div>
+                            <i class="fa fa-phone"></i>
+                            <span>
+                                <h5>08153951230</h5>
+                                <p>Runzzy Arinze</p>
+                            </span>
+                        </div>
+                        </div>
+                        <div class="conco">
+                            <div>
+                                <i class="fa fa-envelope-o"></i>
+                                <span>
+                                    <h5>Runzzy345@gmail.com</h5>
+                                    <p>OWoro</p>
+                                </span>
+                            </div>
+                            </div>
+                            <div class="conco">
+                                <form action="form.php" method="post">
+                                    <input type="text" name="name" placeholder="Enter your name" required>
+                                    <input type="email" name="email"placeholder="Enter your email" required>
+                                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                                    <textarea placeholder="enter your message" rows="8" name="message"></textarea>
+                                    <button type="submit" class="btn red">Send Message</button>
+                                </form>
+                                </div>
+
+              
+            </div>
+
+        </section>
+    
+
+
+        <!-- .........footer -->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Glad to know better</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-whatsapp"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i>By RUNZZY</p>
+        </section>
+
+
+
+
+
+
+
+        <!-- ............javascriptfor toggle menu -->
+        <script>
+            var navlinks=document.getElementById("navlinks");
+            function showmenu(){
+                navlinks.style.right="0"
+            }
+            
+            function hidemenu(){
+                navlinks.style.right="-200px"
+            }
+            
+        </script>
+    </body>
+</html>
